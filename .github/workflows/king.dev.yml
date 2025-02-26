@@ -28,10 +28,6 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-  PACK_DOWNLOAD_TARGET_PATH: openwrtPack/armvirt64
-  PACK_PACKAGE_SOC: s905x3
-  PACK_KERNEL_VERSION_NAME: 6.6.y
-  KERNEL_REPO_URL: ophub/kernel
 
 jobs:
   build:
