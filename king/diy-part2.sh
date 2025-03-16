@@ -47,7 +47,7 @@ sed -i "s/LiBwrt/OpenWrt/g" package/network/config/wifi-scripts/files/lib/wifi/m
 # git clone -b js https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
 
 # 添加 advanced 系统设置插件
-git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
+# git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
 # git clone https://github.com/sirpdboy/luci-app-advancedplus.git package/luci-app-advancedplus
 
 # 删除自带 AdguardHome 文件，添加 AdguardHome 广告过滤插件
