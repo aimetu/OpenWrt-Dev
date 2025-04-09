@@ -14,10 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-# echo "src-git neko https://github.com/nosignals/openwrt-neko.git;dev" >> "feeds.conf.default"
+# echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+# echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
 echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+# echo "src-git neko https://github.com/nosignals/openwrt-neko.git;dev" >> "feeds.conf.default"
 # echo "src-git nekobox https://github.com/Thaolga/openwrt-nekobox.git;main" >> "feeds.conf.default"
 # echo "src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v5" >> "feeds.conf.default"
 # echo "src-git openclash https://github.com/vernesong/OpenClash.git;dev" >> "feeds.conf.default"
